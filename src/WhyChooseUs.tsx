@@ -1,5 +1,4 @@
 import { CheckCircle, Sparkles, Video } from 'lucide-react'
-import React from 'react'
 
 function WhyChooseUs() {
   return (

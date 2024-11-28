@@ -1,4 +1,4 @@
-import { Github, Mail, ExternalLink } from 'lucide-react'
+import {  Mail, ExternalLink, Cat } from 'lucide-react'
 import { Button } from './components/ui/button'
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./components/ui/card"
 
@@ -25,7 +25,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2"
               >
-                <Github className="w-4 h-4" />
+                <Cat className="w-4 h-4" />
                 GitHub
               </a>
             </Button>
