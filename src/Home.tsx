@@ -66,12 +66,12 @@ function Home() {
                 type="url"
                 placeholder="https..."
               />
-              <button className="bg-emerald-400 text-black px-2" type="submit">
+              <button className="bg-emerald-400 text-black  px-2" type="submit">
                 Create video
               </button>
             </form>
           </div>
-          <div className="p-8">
+          <div className="p-8 hidden md:block">
             <div className="bg-gray-200 w-[240px] h-[380px] opacity-35 text-center text-black rounded-md">
               Video Preview..
             </div>
@@ -165,19 +165,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t-slate-100 mt-10">
-          <p className="text-xs text-gray-500 dark:text-gray-400">
-            © 2024 VideoBlogAI. All rights reserved.
-          </p>
-          <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-            <a className="text-xs hover:underline underline-offset-4" href="#">
-              Terms of Service
-            </a>
-            <a className="text-xs hover:underline underline-offset-4" href="#">
-              Privacy
-            </a>
-          </nav>
-        </footer>
+
       </div>
     </>
   );
